@@ -1,4 +1,4 @@
-
+run = "hello world"
 /**
  * IN CLASS EXERCISE: stringy.js
  */
@@ -11,27 +11,34 @@
  */
 function length(string) {
     // YOUR CODE BELOW HERE //
+   console.log(string.length)
     
 
     // YOUR CODE ABOVE HERE //
-}
+} 
+lenght('hello')
 
 /**
  * Given an input String, return a new String forced to lowercase.
  */
 function toLowerCase(string) {
     // YOUR CODE BELOW HERE //
+   console.log(string.toLowercase)
+  
+    
+    }
+    
  
 
     // YOUR CODE ABOVE HERE //
 }
-
 /**
  * Given an input String, return a new String forced to uppercase.
  */
 function toUpperCase(string) {
     // YOUR CODE BELOW HERE //
-
+  string = "the tiger hunted down his prey"
+  console.og(string.toUpperCase());
 
     // YOUR CODE ABOVE HERE //
 }
@@ -51,6 +58,11 @@ function toUpperCase(string) {
  */
 function toDashCase(string) {
     // YOUR CODE BELOW HERE //
+    toDashCase('Im Johan'); // =>
+  'Im-Johan
+  console.log(string.toDashCase)
+
+    
 
        
     // YOUR CODE ABOVE HERE //
@@ -70,6 +82,9 @@ function toDashCase(string) {
  */
 function beginsWith(string, char) {
     // YOUR CODE BELOW HERE //
+    beginsWith('Apple', 'a')// => true
+    beginsWith('Apple', 'b')// => false
+    console.log(string, char.beginsWith)
        
        
     // YOUR CODE ABOVE HERE //
@@ -89,6 +104,9 @@ function beginsWith(string, char) {
  */
 function endsWith(string, char) {
     // YOUR CODE BELOW HERE //
+    endsWith('Goku', 'g')// => true
+    endsWith('Goku', 'h')// => false
+    console.log(string, char.endsWith)
         
 
     // YOUR CODE ABOVE HERE //
@@ -101,6 +119,8 @@ function endsWith(string, char) {
  */
 function concat(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
+    ('stringOne', 'stringTwo');// =>stringOne
+    console.log(contact(stringOne, stringTwo))
 
 
     // YOUR CODE ABOVE HERE //
@@ -118,6 +138,8 @@ function concat(stringOne, stringTwo) {
  */
 function longest(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
+    longest("Tree", "Orange");// => "Orange"
+    console.log(longest(stringOne, stringTwo))
     
    
     // YOUR CODE ABOVE HERE //
@@ -132,6 +154,8 @@ function longest(stringOne, stringTwo) {
  */
 function sortAscending(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
+    ascending('200', '12');// => 1
+    (console.log(sortAscending(stringOne, stringTwo))
 
 
     // YOUR CODE ABOVE HERE //
@@ -147,7 +171,8 @@ function sortAscending(stringOne, stringTwo) {
  */
 function sortDescending(stringOne, stringTwo) {
     // YOUR CODE BELOW HERE //
-
+  sortDescending('100', '900'); //=> 1
+  (console.log(sortDescending(stringOne, stringTwo))
 
     // YOUR CODE ABOVE HERE //
 }
